@@ -664,6 +664,64 @@ button {
   margin-bottom: 16px;
 }
 
+.footer-input-wrapper {
+  margin-left: 80px;
+}
+
+.footer-input-desc {
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--white-background);
+}
+
+.footer-form {
+  display: flex;
+  gap: 24px;
+}
+
+.footer-form-input {
+  width: 264px;
+  height: 40px;
+  border: 1px solid var(--white-background);
+  background-color: transparent;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  color: var(--white-background);
+}
+
+.footer-form-input::placeholder {
+  color: var(--white-background);
+}
+
+.footer-form-btn {
+  min-width: 165px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--white-background);
+  cursor: pointer;
+  background-color: var(--pressed-state);
+  border: none;
+  border-radius: 4px;
+}
+
+.footer-form-btn-icon {
+  margin-left: 16px;
+}
+
 /* ----------------modal----------------------- */
 
 .backdrop-window {
