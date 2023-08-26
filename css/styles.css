@@ -722,6 +722,10 @@ button {
   margin-left: 16px;
 }
 
+.footer-logo {
+  margin-bottom: 16px;
+}
+
 /* ----------------modal----------------------- */
 
 .backdrop-window {
@@ -880,7 +884,7 @@ button {
   font-weight: 400;
   line-height: 1.17;
   letter-spacing: 0.04em;
-  font-size: 18px;
+  font-size: 12px;
 }
 
 .contacts-form-checkbox-label {
